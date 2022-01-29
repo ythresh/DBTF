@@ -6,7 +6,7 @@ try:
 	print(f'\033[1;33mWordList carregada - {wl}')
 except Exception as e:
 	wordlist = open('common.txt', 'r')
-	print(f'\033[1;33mWordList carregada - diretorios.txt')
+	print(f'\033[1;33mWordList carregada - common.txt')
 print('''
 $$$$$$$\  $$$$$$$\ $$$$$$$$\ $$$$$$$$\ 
 $$  __$$\ $$  __$$\\__$$  __|$$  _____|
